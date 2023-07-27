@@ -1,3 +1,4 @@
+#include "blink.h"
 #include "pico/cyw43_arch.h"
 
 void blink(int count, int delay) {

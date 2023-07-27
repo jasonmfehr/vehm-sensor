@@ -8,7 +8,6 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 add_executable(remote_sensor
   error.h
-  blink.h
   blink.c
   admin_console.c
   remote_sensor.c

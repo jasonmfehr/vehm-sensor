@@ -1,5 +1,7 @@
-#ifndef __blink
-#define __blink
+#include <stdbool.h>
+
+#ifndef __BLINK_H
+#define __BLINK_H
 
 #define LED_ON  "on"
 #define LED_OFF "off"

@@ -1,6 +1,6 @@
 {
   "cmake.environment": {
-    "PICO_SDK_PATH":"${workspaceFolder}/../pico-sdk",
+    "PICO_SDK_PATH":"${workspaceFolder}/../../pico-sdk",
     "PICO_BOARD": "pico_w",
   },
   "cmake.configureOnOpen": true,

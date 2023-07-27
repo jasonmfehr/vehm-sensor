@@ -1,5 +1,6 @@
-#ifndef __error
-#define __error
+#ifndef __ERROR_H
+#define __ERROR_H
+
 typedef enum {
   /* No error, everything OK. */
   RS_OK                   = 0,
@@ -21,4 +22,5 @@ typedef enum {
 } err_enum_rs_;
 
 typedef err_enum_rs_ err;
+
 #endif
